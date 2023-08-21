@@ -1,0 +1,7 @@
+# Notions essentielles
+
+Dans cette section, nous observons les deux schémas d’Euler explicite et Euler implicite étudiés dans le cours sur plusieurs de ces systèmes. Le but est ici de bien comprendre les diverses notions de stabilité, la notion de convergence et la notion de raideur et son impact sur la résolution numérique. [L’étude du système de Hirschfelder et Curtiss](./curtiss.ipynb) est éclairante et permet de comprendre pourquoi les méthodes explicites ont du mal avec les systèmes raides, alors que la méthode implicite, même si aussi peu précise car d’ordre un, a de très bonnes propriétés de stabilité absolue : le schéma d’Euler implicite est même A-Stable.
+
+[Une seconde application des deux méthodes numériques sur des systèmes conservatifs](./conservative_systems.ipynb) issus de la mécanique céleste permet de bien illustrer le manque de précision lié à l’ordre limité des deux méthodes ainsi que l’incapacité des méthodes à préserver l’invariant du système.
+
+Pour finir, nous nous concentrons sur [le problème de l’explosion thermique](./explosion.ipynb) qui combine une forte raideur avec une dynamique explosive impliquant une valeur propre de partie réelle positive et très élevée. Ce problème illustre les difficultés que l’on rencontre avec chacune des deux méthodes, que ce soit en termes de stabilité aux perturbations avec la méthode implicite dans la zone explosive ou la stabilité absolue avec la méthode explicite dans la zone de fin de réaction impliquant une valeur propre à très forte partie réelle négative et donc une très forte raideur.

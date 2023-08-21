@@ -1,0 +1,3 @@
+# Pour aller plus loin
+
+Dans le cas où la fonction possède une singularité intégrable ou une difficulté localisée, raffiner le nombre de sous-intervalle d’intégration de manière uniforme dans l’intervalle d’intégration ne sera pas efficace et on est tenté d’aller vers de la quadrature adaptative. Nous proposons [dans le notebook de cette section](adapt.ipynb) un exemple de quadrature adaptative basée sur la quadrature de Gauss-Legendre ayant la propriété d’être emboitée, c’est-à-dire qu’elle utilise plusieurs ordres de quadrature pour construire une estimation d’erreur sans avoir besoin de réévaluer la valeur de la fonction. L’efficacité de l’approche est démontrée sur deux fonctions types.

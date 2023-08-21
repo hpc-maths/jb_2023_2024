@@ -26,6 +26,143 @@ parts:
     - file: content/chapter/01_float/challenge_rump
     - file: content/chapter/01_float/sagemath_rump
 
+- caption: Chapitre 2
+  chapters:
+  - file: content/chapter/02_interp/intro
+    sections:
+    - file: content/chapter/02_interp/examples
+  - file: content/chapter/02_interp/notions
+    sections:
+    - file: content/chapter/02_interp/runge
+    - file: content/chapter/02_interp/cond
+    - file: content/chapter/02_interp/stability
+  - file: content/chapter/02_interp/loin
+    sections:
+    - file: content/chapter/02_interp/interp_runge
+    - file: content/chapter/02_interp/interp_sin
+  - file: content/chapter/02_interp/challenge_interp
+
+- caption: Chapitre 3
+  chapters:
+  - file: content/chapter/03_integ/intro
+    sections:
+    - file: content/chapter/03_integ/quad
+  - file: content/chapter/03_integ/notions
+    sections:
+    - file: content/chapter/03_integ/ordre
+    - file: content/chapter/03_integ/erreur
+  - file: content/chapter/03_integ/loin
+    sections:
+    - file: content/chapter/03_integ/adapt
+  - file: content/chapter/03_integ/challenge_integ
+
+- caption: Chapitre 4
+  chapters:
+  - file: content/chapter/04_direct_lin_sys/intro
+    sections:
+    - file: content/chapter/04_direct_lin_sys/exemples
+  - file: content/chapter/04_direct_lin_sys/notions
+    sections:
+    - file: content/chapter/04_direct_lin_sys/sys_lin_sage
+    - file: content/chapter/04_direct_lin_sys/pivot
+  - file: content/chapter/04_direct_lin_sys/loin
+    sections:
+    - file: content/chapter/04_direct_lin_sys/storage
+  - file: content/chapter/04_direct_lin_sys/challenge
+
+- caption: Chapitre 5
+  chapters:
+  - file: content/chapter/05_iterative_lin_sys/intro
+    sections:
+    - file: content/chapter/05_iterative_lin_sys/limite_direct
+  - file: content/chapter/05_iterative_lin_sys/notions
+    sections:
+    - file: content/chapter/05_iterative_lin_sys/methodes
+    - file: content/chapter/05_iterative_lin_sys/gradient
+    - file: content/chapter/05_iterative_lin_sys/poisson1d2d3d
+  - file: content/chapter/05_iterative_lin_sys/loin
+    sections:
+    - file: content/chapter/05_iterative_lin_sys/precondionnement
+  - file: content/chapter/05_iterative_lin_sys/cg
+
+- caption: Chapitre 6
+  chapters:
+  - file: content/chapter/06_non_linear_eq/intro
+    sections:
+    - file: content/chapter/06_non_linear_eq/exemples
+  - file: content/chapter/06_non_linear_eq/notions
+    sections:
+    - file: content/chapter/06_non_linear_eq/newton_secante
+    - file: content/chapter/06_non_linear_eq/explosion_thermique
+  - file: content/chapter/06_non_linear_eq/loin
+    sections:
+    - file: content/chapter/06_non_linear_eq/newton_modifie
+  - file: content/chapter/06_non_linear_eq/challenge
+
+- caption: Chapitre 7
+  chapters:
+  - file: content/chapter/07_edo_01/intro
+    sections:
+    - file: content/chapter/07_edo_01/exemples.ipynb
+    - file: content/chapter/07_edo_01/peano.ipynb
+    - file: content/chapter/07_edo_01/euler.ipynb
+  - file: content/chapter/07_edo_01/notions
+    sections:
+    - file: content/chapter/07_edo_01/curtiss.ipynb
+    - file: content/chapter/07_edo_01/conservative_systems.ipynb
+    - file: content/chapter/07_edo_01/explosion.ipynb
+  - file: content/chapter/07_edo_01/challenge
+
+- caption: Chapitre 8
+  chapters:
+  - file: content/chapter/08_edo_02/intro
+    sections:
+    - file: content/chapter/08_edo_02/explosion_euler
+  - file: content/chapter/08_edo_02/notions
+    sections:
+     - file: content/chapter/08_edo_02/curtiss_rk
+     - file: content/chapter/08_edo_02/brusselator_rk
+     - file: content/chapter/08_edo_02/explosion_rk
+  - file: content/chapter/08_edo_02/loin
+    sections:
+    - file: content/chapter/08_edo_02/adaptative_rk
+  - file: content/chapter/08_edo_02/challenge
+
+- caption: Chapitre 9
+  chapters:
+  - file: content/chapter/09_edp_01/intro
+    sections:
+    - file: content/chapter/09_edp_01/edptoedo.ipynb
+  - file: content/chapter/09_edp_01/notions
+    sections:
+     - file: content/chapter/09_edp_01/heat_edo.ipynb
+     - file: content/chapter/09_edp_01/vp_laplacien.ipynb
+     - file: content/chapter/09_edp_01/heat_edp.ipynb
+     - file: content/chapter/09_edp_01/nagumo.ipynb
+  - file: content/chapter/09_edp_01/challenge
+
+- caption: Petites Classes
+  chapters:
+  - file: content/pc/pc1
+    title: PC 1
+  - file: content/pc/pc2
+    title: PC 2
+  - file: content/pc/pc3
+    title: PC 3
+  - file: content/pc/pc4
+    title: PC 4
+  - file: content/pc/pc5
+    title: PC 5
+  - file: content/pc/pc6
+    title: PC 6
+  - file: content/pc/pc7
+    title: PC 7
+  - file: content/pc/pc8
+    title: PC 8
+  - file: content/pc/pc9
+    title: PC 9
+  - file: content/pc/pc10
+    title: PC 10
 
 - caption: Tutorat Python
   chapters:
