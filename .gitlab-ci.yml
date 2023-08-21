@@ -1,0 +1,14 @@
+image: condaforge/mambaforge
+
+pages:
+  script:
+  - mamba env create -f environment.yml
+  - source activate jb_map412
+  - jupyter-book build . 
+  - mv _build/html/ public/
+  only:
+  - main
+  artifacts:
+    paths:
+    - public/
+

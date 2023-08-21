@@ -1,0 +1,33 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: content/home
+
+parts:
+
+- caption:
+  chapters: 
+  - file: content/mode_emploi
+  - file: content/intro_notebook
+
+- caption: Chapitre 1
+  chapters:
+  - file: content/chapter/01_float/intro
+    sections:
+     - file: content/chapter/01_float/mpmath
+  - file: content/chapter/01_float/notions
+    sections:
+    - file: content/chapter/01_float/error
+    - file: content/chapter/01_float/conditioning
+    - file: content/chapter/01_float/stability
+  - file: content/chapter/01_float/challenge
+    sections:
+    - file: content/chapter/01_float/challenge_rump
+    - file: content/chapter/01_float/sagemath_rump
+
+
+- caption: Tutorat Python
+  chapters:
+  - file: content/tutorial/tuto_01
+  - file: content/tutorial/tuto_02
