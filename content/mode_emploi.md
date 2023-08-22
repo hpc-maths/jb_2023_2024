@@ -54,10 +54,3 @@ Pour ce mode, il suffit de télécharger les notebooks Jupyter depuis ce site et
 
 - Remarque : déplacer vos notebooks dans le répertoire `persistent` afin qu'ils soient conserver pour une prochaine session  
 ``` 
-
-## Utiliser Binder
-
-Binder propose de déployer un environnement Jupyter accessible en ligne, sans aucune installation, à partir d’un dépôt git contenant des notebooks.
-Pour lancer les notebooks du cours, il suffit de cliquer sur le lien binder présent sur chaque page du site proposant un notebook. 
-
-Remarque : l'environnement Jupyter est supprimé lorsque que la session se termine, pensez à télécharger le notebook sur votre machine si vous souhaitez le garder. 

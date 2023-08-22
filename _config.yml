@@ -31,7 +31,7 @@ html:
   home_page_in_navbar: false
 
 launch_buttons:
-  binderhub_url: https://mybinder.org
+  binderhub_url: "https://mybinder.org"  # The URL for your BinderHub (e.g., https://mybinder.org)
 
 # load require.js for plotly
 sphinx:
