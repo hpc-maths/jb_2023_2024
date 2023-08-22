@@ -23,7 +23,7 @@ Pour ce mode, il suffit de télécharger les notebooks Jupyter depuis ce site et
 
 - Installer les packages python nécessaires pour le cours :
 
-`conda install jupyter jupyterlab mpmath numpy scipy matplotlib bokeh ipywidgets plotly quadpy`
+`conda install jupyter jupyterlab mpmath numpy scipy matplotlib bokeh ipywidgets plotly quadpy sage=9.6`
 
 
 - Lancer le serveur Jupyter :
